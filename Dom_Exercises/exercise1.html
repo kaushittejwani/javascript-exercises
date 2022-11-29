@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var age = Number.parseInt(prompt("enter your age"));
+      if (age > 18) {
+        alert("u can drive");
+      } else if (age == 18) {
+        alert("u can drive");
+      } else {
+        alert("u cannot drive");
+      }
+      var promptagain = confirm("want prompt again");
+      if (confirm) {
+        var age = Number.parseInt(prompt("enter your age"));
+        if (age > 18) {
+          alert("u can drive");
+        } else if (age == 18) {
+          alert("u can drive");
+        } else if (age < 0) {
+          console.error("the age entered is negative");
+          document.write("the age entered is negative");
+        } else {
+          alert("u cannot drive");
+        }
+      }
+    </script>
+  </body>
+</html>
