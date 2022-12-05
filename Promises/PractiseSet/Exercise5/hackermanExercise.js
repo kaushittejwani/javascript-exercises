@@ -1,6 +1,6 @@
 
 
-/*async function  hackerman(){
+async function  hackerman(){
     return new Promise((resolve,request)=>{
          setTimeout(() => {
              console.log("Initianlizing Hack Program .....")
@@ -19,12 +19,12 @@
     }
     )
     
-}*/
-/*const hacking=async()=>{
+}
+const hacking=async()=>{
   const a =await hackerman();
   console.log(a);
 }
-hacking();*/
+hacking();
 document.body.style.background="black"
 const  message=[
    "Initianlizing Hack Program .....",
